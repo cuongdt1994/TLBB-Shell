@@ -60,7 +60,7 @@ Select_Install_Version(){
 
 downloadPack(){
     if [ ! -f "/opt/tlbbfor7x.tar.gz" ];then
-        wget -P /opt http://www.mumawu.com/tlbb/tlbbfor7x.tar.gz
+        wget -P /opt https://raw.githubusercontent.com/cuongdt1994/TLBB-Shell/main/tlbbfor7x.tar.gz
     fi
     tar zxvf /opt/tlbbfor7x.tar.gz -C /opt
 }
